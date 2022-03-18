@@ -1,0 +1,197 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@1,300&family=Rajdhani:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@1,300&family=Rajdhani:wght@300&family=Roboto:wght@100&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgba(255, 255, 255, 1);
+    color: rgba(155, 155, 155, 1);
+}
+header {
+    background-color: #ffffff;
+    width: 100%;
+    height: 122px;
+    box-shadow: 0 .125rem .25rem #9F9F9FA6;
+}
+div > img {
+    height: 100px;
+    align-items: center;
+    padding: 10px;
+}
+header > div {
+    background-color:#ffffff ;
+}
+header > div > ul > li {
+    background-color: #ffffff;
+    display: inline;
+    padding: 5px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(119, 119, 119, 1);
+}
+
+header > div > ul {
+    display: flex;
+    align-items: center
+}
+
+header > div {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+main {
+    grid-template-areas: "Nav Texto";
+    margin: 50px auto;
+    margin-left: 150px;
+    width: 960px;
+    display: grid;
+}
+
+nav {
+    grid-area: Nav;
+    width: 585px;
+}
+
+
+input:checked{
+    background-color: #777777;
+    width: 13px;
+    height: 13px;
+  }
+
+nav > div > button {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    left: 666px;
+    top: 520px;
+}
+
+.mensagem {
+    width: 536.64px;
+    height: 78px;
+}
+
+.curriculo {
+    display: flex;
+    align-items: center;
+}
+
+.curriculo > p {
+    padding-right: 10px;
+}
+
+.curriculo > input {
+    width: 118px;
+    height: 21px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(196, 196, 196, 1);
+    border: rgba(119, 119, 119, 1);
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.enviar > input {
+    background-color: rgba(194, 24, 91, 1);
+    color: rgba(255, 255, 255, 1);
+    Width: 537px;
+    Height: 33px;
+    font-size: 20px;
+}
+
+.Texto {
+    grid-area: Texto;
+    padding: 70px 36px 0 50px; 
+    width:400px;
+    height: 448px;
+    font-family: 'Open Sans', sans-serif;
+    Size: 16px;
+    color: rgba(87, 87, 87, 1);
+}
+
+aside {
+    top: 368px;
+}
+
+main > nav > h1 {
+    color: #575757;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+}
+
+main > nav> div > input {
+    width: 538px;
+    height: 20px;
+    border: 1px solid rgba(155, 155, 155, 1);
+}
+
+main > nav > div > ul > li {
+    display: inline-flex;
+    color: rgba(119, 119, 119, 1);
+}
+
+main > nav > div > ul {
+    padding-left: 0;
+}
+
+footer {
+    width: 100%;
+    height: 229px;
+    background-color: rgba(194, 24, 91, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer > div {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 110px;
+}
+
+footer > div > img {
+    Width: 233px;
+    Height: 117px;  
+    margin: 5px 0 0 0;
+}
+
+footer > div > p {
+    Width: 279px;
+    Height: 94px;
+    margin: 0;
+    position: absolute;
+    top: 1060px;
+    left: 120px;
+    font-size: 16px;
+}
+
+.categorias > h3 {
+    position: absolute;
+    top: 993px;
+    left: 680px;
+    font-size: 20px;
+}
+
+.categorias > p {
+    position: absolute;
+    top: 1040px;
+    left: 680px;
+    font-size: 16px;
+}
+
+.institucional > h3 {
+    position: absolute;
+    top: 993px;
+    left: 980px;
+    font-size: 20px;
+}
+
+.institucional > p {
+    position: absolute;
+    top: 1040px;
+    left: 980px;
+    font-size: 16px;
+}
+ 
